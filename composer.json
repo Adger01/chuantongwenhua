@@ -3,7 +3,7 @@
     "description": "传统文化",
     "autoload": {
         "psr-4": {
-            "Chuantongwenhua\\": "src/"
+            "Adger01\\Chuantongwenhua\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "email": "183080401@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "overtrue/chinese-calendar": "^1.0"
+    }
 }
